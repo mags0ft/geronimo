@@ -10,7 +10,9 @@ class Point:
 
     position: list[float] = []
 
-    def __init__(self, position: list[float] = [], dimensions: int = 3):
+    def __init__(
+        self, position: list[float] | None = None, dimensions: int = 3
+    ):
         """
         Initialize a new point;
         """

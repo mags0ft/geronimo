@@ -6,12 +6,13 @@ import time
 from geronimo.util import fibonacci, fib, greatest_common_divisor
 
 
+CORRECT_FIB_NUMBERS = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+
 def test_fibonacci() -> None:
     """
     Tests the built-in fibonacci series utility.
     """
-
-    CORRECT_FIB_NUMBERS = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
     for n, correct in enumerate(CORRECT_FIB_NUMBERS):
         assert fibonacci(n) == correct

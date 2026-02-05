@@ -15,7 +15,7 @@ class Vector:
 
     values: list[float] = []  # stores the values
 
-    def __init__(self, values: list[float] = [], dimensions: int = 3):
+    def __init__(self, values: list[float] | None = None, dimensions: int = 3):
         """
         Initialize a new vector. If no values are given, fill it with n zeroes,
         where n is the number of dimensions (default: 3).
@@ -54,7 +54,7 @@ class Vector:
         Get the length of the vector.
         """
 
-        return sqrt(sum([el**2 for el in self.values]))
+        return sqrt(sum(el**2 for el in self.values))
 
     def __add__(self, other: "Vector") -> "Vector":
         """
@@ -85,9 +85,9 @@ class Vector:
 
         if isinstance(other, Vector):
             self._dimension_check(other)
-            return sum([a * b for a, b in zip(self.values, other.values)])
-        else:
-            return Vector([d * other for d in self.values])
+            return sum(a * b for a, b in zip(self.values, other.values))
+
+        return Vector([d * other for d in self.values])
 
     def __repr__(self) -> str:
         """

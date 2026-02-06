@@ -1,10 +1,10 @@
 # Installation
 
-This page will teach you about the ways to install the geronimo library in your project or environment.
+This page will teach you about the ways to install the `geronimo` library in your project or environment.
 
 ## pip
 
-To install geronimo, you can simply use pip on any newer Python version (>= 3.10):
+To install `geronimo`, you can simply use pip on any newer Python version (>= 3.10):
 
 ```bash
 pip install geronimo

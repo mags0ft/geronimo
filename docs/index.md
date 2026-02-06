@@ -1,6 +1,6 @@
 # geronimo
 
-Geronimo is a minimal and easy-to-learn Python library for your quick and dirty everday math calculations, especially regarding high-dimensional geometry calculations.
+`geronimo` is a minimal and easy-to-learn Python library for your quick and dirty everday math calculations, especially regarding high-dimensional geometry calculations.
 
 ## Get started
 

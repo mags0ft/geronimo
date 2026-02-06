@@ -45,8 +45,7 @@ theme:
         icon: material/brightness-6
         name: Switch to system preference
   favicon: assets/icon-material.png
-  icon:
-    logo: material/blur_on
+  icon: assets/icon-material.png
 
 copyright: Copything &copy; 2026 <a href="https://github.com/mags0ft">Magnus Schlinsog</a> and <a href="https://github.com/mags0ft/geronimo/graphs/contributors">GitHub contributors</a>
 

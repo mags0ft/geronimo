@@ -32,3 +32,7 @@ v1, v2 = v0 * 0.25, v0.normalize()
 
 print(v1.length(), v2.length()) # ≈ 2.291, 1.0
 ```
+
+## License
+
+`geronimo` is an open source project. You can take a look at the `LICENSE` file [here](./LICENSE).

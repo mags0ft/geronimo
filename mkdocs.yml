@@ -31,15 +31,15 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: cyan
-      accent: white
+      primary: white
+      accent: black
       toggle:
         icon: material/brightness-2
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: cyan
-      accent: white
+      primary: white
+      accent: black
       toggle:
         icon: material/brightness-6
         name: Switch to system preference

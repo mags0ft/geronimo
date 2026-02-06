@@ -5,13 +5,12 @@ site_author: Magnus Schlinsog and contributors
 nav:
   - Home: index.md
   - Install: installation.md
-  - Get Started: get_started.md
   - Documentation:
     - Overview: documentation.md
-    - Filters: filters.md
-    - Pipelines: pipelines.md
-    - Results: results.md
-    - Premade Pipelines: premade.md
+    - Geometry:
+      - Vector: vector.md
+      - Point: point.md
+    - Util: util.md
   - About:
     - Contributing: contributing.md
     - License: https://github.com/mags0ft/geronimo/blob/master/LICENSE
@@ -33,19 +32,19 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: cyan
-      accent: light blue
+      accent: white
       toggle:
         icon: material/brightness-2
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: cyan
-      accent: light blue
+      accent: white
       toggle:
         icon: material/brightness-6
         name: Switch to system preference
   favicon: assets/icon-material.png
-  icon: assets/icon-material.png
+  icon: material/blur-on
 
 copyright: Copything &copy; 2026 <a href="https://github.com/mags0ft">Magnus Schlinsog</a> and <a href="https://github.com/mags0ft/geronimo/graphs/contributors">GitHub contributors</a>
 

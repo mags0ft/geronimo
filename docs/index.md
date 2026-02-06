@@ -1,4 +1,6 @@
-# geronimo
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mags0ft/geronimo/refs/heads/main/docs/assets/icon.png" width=128 />
+</p>
 
 `geronimo` is a minimal and easy-to-learn Python library for your quick and dirty everday math calculations, especially regarding high-dimensional geometry calculations.
 

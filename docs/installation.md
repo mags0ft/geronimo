@@ -4,7 +4,7 @@ This page will teach you about the ways to install the geronimo library in your 
 
 ## pip
 
-To install geronimo, you can simply use pip on any newer Python version (>= 3.9):
+To install geronimo, you can simply use pip on any newer Python version (>= 3.10):
 
 ```bash
 pip install geronimo
